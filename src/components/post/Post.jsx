@@ -16,6 +16,7 @@ export default function Post() {
                     </div>
                 </div>
                 <div className="postCenter"></div>
+                    <span className="postText">Hey! It's my first post:)</span>
                 <div className="postBottom"></div>
             </div>
         </div>
