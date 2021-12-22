@@ -1,19 +1,19 @@
 import "./topbar.css"
-import { Search, Person } from "@material-ui/icons"
+import { Search, Person, Chat, Notifications } from "@material-ui/icons"
 
 export default function Topbar() {
     return (
         <div className="topbarContainer">
-            <div className="topBarLeft">
+            <div className="topbarLeft">
                 <span className="logo">someSocial</span>
             </div>
-            <div className="topBarCenter">
+            <div className="topbarCenter">
                 <div className="searchbar">
-                    <Search />
+                    <Search className="searchIcon" />
                     <input placeholder="Search for friends, post or video" className="searchInput" />
                 </div>
             </div>
-            <div className="topBarRight">
+            <div className="topbarRight">
                 <div className="topbarLinks">
                     <span className="topbarLink">Homepage</span>
                     <span className="topbarLink">Timeline</span>
@@ -23,7 +23,16 @@ export default function Topbar() {
                         <Person />
                         <span className="topbarIconBadge">1</span>
                     </div>
+                    <div className="topbarIconItem">
+                        <Chat />
+                        <span className="topbarIconBadge">2</span>
+                    </div>
+                    <div className="topbarIconItem">
+                        <Notifications />
+                        <span className="topbarIconBadge">1</span>
+                    </div>
                 </div>
+                <img src="/assets/person/person1.jpg" alt="" className="topbarImg" />
             </div>
         </div>
     )
