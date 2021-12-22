@@ -2,8 +2,8 @@ import "./rightbar.css"
 
 export default function RightBar() {
     return (
-        <di>
+        <div className="rightbar">
             rightbar
-        </di>
+        </div>
     )
 }
