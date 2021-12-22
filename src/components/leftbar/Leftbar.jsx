@@ -43,6 +43,14 @@ export default function Leftbar() {
                         <span className="sidebarListItemText">Courses</span>
                     </li>
                 </ul>
+                <button className="leftbarButton">Show More</button>
+                <hr className="leftbarHr"/>
+                <ul className="leftbarFriendList">
+                    <li className="leftbarFriend">
+                        <img className="leftbarFriendImg" src="/assets/person/person2.jpg" alt="" />
+                        <span className="leftbarFriendName">Jane Doe</span>
+                    </li>
+                </ul>
             </div>
         </div>
     )
